@@ -1,0 +1,667 @@
+[
+  {
+    "name": "Figma Official MCP",
+    "cat": "ux-design",
+    "desc": "Canvas reading, code extraction via Code Connect, variable extraction, auto-layout parsing, and native element writing.",
+    "transport": "HTTP / Remote",
+    "link": "https://github.com/mcp/com.figma.mcp/mcp"
+  },
+  {
+    "name": "Figma Dev Mode Local MCP",
+    "cat": "ux-design",
+    "desc": "Local alternative to Dev Mode with zero rate limits, enabling local token extraction and verification loops.",
+    "transport": "Stdio / Local",
+    "link": "https://github.com/topics/figma-mcp"
+  },
+  {
+    "name": "TellFigma Canvas MCP",
+    "cat": "ux-design",
+    "desc": "Real-time design canvas writing and editing directly from terminal CLI environments via WebSocket bridge.",
+    "transport": "WebSocket / Stdio",
+    "link": "https://github.com/topics/code-to-design"
+  },
+  {
+    "name": "Figma Tailwind Cookiecutter",
+    "cat": "ux-design",
+    "desc": "Synchronizes visual tokens from Figma directly into Tailwind CSS configuration presets.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/topics/figma-mcp"
+  },
+  {
+    "name": "Penpot Official MCP",
+    "cat": "ux-design",
+    "desc": "Open-source vector design server allowing scriptable plugin execution, canvas modifications, and SVG export.",
+    "transport": "WebSocket / HTTP",
+    "link": "https://github.com/penpot/penpot-mcp"
+  },
+  {
+    "name": "Excalidraw MCP App",
+    "cat": "ux-design",
+    "desc": "Interactive visual diagramming application streaming hand-drawn visual sketches and UI wireframes directly in chat.",
+    "transport": "HTTP / Remote",
+    "link": "https://github.com/excalidraw/excalidraw-mcp"
+  },
+  {
+    "name": "Excalidraw Workbench Server",
+    "cat": "ux-design",
+    "desc": "Persistent canvas toolkit enabling AI agents to programmatically build, screenshot, layout, and export .excalidraw files.",
+    "transport": "Stdio / CLI",
+    "link": "https://github.com/yctimlin/mcp_excalidraw"
+  },
+  {
+    "name": "Blender MCP Server",
+    "cat": "ux-design",
+    "desc": "Exposes 3D scene hierarchies, mesh data, object manipulation, and material configurations via Blender's Python API.",
+    "transport": "Stdio / Python",
+    "link": "https://www.bezi.com/blog/introducing-mcps"
+  },
+  {
+    "name": "OpenPencil AI Design Editor",
+    "cat": "ux-design",
+    "desc": "Programmatic design editor supporting native .fig and .pen file editing via headless Vue SDK and XPath queries.",
+    "transport": "Stdio / Native",
+    "link": "https://github.com/open-pencil/open-pencil"
+  },
+  {
+    "name": "Iconify Vector MCP",
+    "cat": "ux-design",
+    "desc": "Vector icon search and generation providing access to over 200,000 open-source icons across 200+ collections.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/imjac0b/iconify-mcp-server"
+  },
+  {
+    "name": "Pickapicon SVG MCP",
+    "cat": "ux-design",
+    "desc": "High-speed SVG retrieval engine connecting Claude to the Iconify API for immediate UI asset integration.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/leee62/pickapicon-mcp"
+  },
+  {
+    "name": "Iconify SVG API Server",
+    "cat": "ux-design",
+    "desc": "Lightweight icon finder allowing description-based search and direct SVG string injection into code templates.",
+    "transport": "Stdio / Node",
+    "link": "https://explainx.ai/mcp-servers/iconify-svg"
+  },
+  {
+    "name": "Better Icons MCP",
+    "cat": "ux-design",
+    "desc": "Multi-framework icon bridge supporting project synchronization, smart batching, and usage auto-learning.",
+    "transport": "Stdio / npx",
+    "link": "https://github.com/better-auth/better-icons"
+  },
+  {
+    "name": "theSVG Brand Icon Repository",
+    "cat": "ux-design",
+    "desc": "Specialized server providing immediate access to over 6,500 brand and cloud platform vector logos.",
+    "transport": "HTTP / REST",
+    "link": "https://github.com/glincker/thesvg"
+  },
+  {
+    "name": "Forge Space Branding MCP",
+    "cat": "ux-design",
+    "desc": "Algorithmic brand identity system generating WCAG-compliant color harmonies, modular type scales, and motion tokens.",
+    "transport": "Stdio / npx",
+    "link": "https://github.com/forge-space/branding-mcp"
+  },
+  {
+    "name": "Storybook Components MCP",
+    "cat": "ux-design",
+    "desc": "Connects Claude to live Storybook documentation, analyzing component props, variant controls, and rendered DOMs.",
+    "transport": "Stdio / Playwright",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Storybook Design Token Addon",
+    "cat": "ux-design",
+    "desc": "Parses stylesheets and icon assets to render live design token documentation panels directly in Storybook.",
+    "transport": "Node / Addon",
+    "link": "https://github.com/UX-and-I/storybook-design-token"
+  },
+  {
+    "name": "Inspire Web UI Scraping MCP",
+    "cat": "ux-design",
+    "desc": "Captures complete HTML/CSS structure from live target websites to analyze visual design patterns and UI components.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/panktishah62/MCP-Stack-for-UI-UX-Designers"
+  },
+  {
+    "name": "Handoff Figma-to-React MCP",
+    "cat": "ux-design",
+    "desc": "Converts structural Figma frames into responsive React components styled with utility-first Tailwind CSS.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/panktishah62/MCP-Stack-for-UI-UX-Designers"
+  },
+  {
+    "name": "Design System Token MCP",
+    "cat": "system-design",
+    "desc": "Extracts, validates, and builds W3C design tokens from JSON definitions into CSS variables and JS modules.",
+    "transport": "Stdio / Deno",
+    "link": "https://github.com/yajihum/design-system-mcp"
+  },
+  {
+    "name": "PostgreSQL Read-Only MCP",
+    "cat": "system-design",
+    "desc": "Schema inspection, SQL query execution, table relationship analysis, and business intelligence querying.",
+    "transport": "Stdio / npx",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "SQLite MCP",
+    "cat": "system-design",
+    "desc": "Lightweight database querying, schema structure extraction, and transactional data analysis.",
+    "transport": "Stdio / uvx",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "MongoDB & Atlas MCP",
+    "cat": "system-design",
+    "desc": "Natural language document querying, aggregation pipeline construction, and index optimization for MongoDB.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Redis Key-Value MCP",
+    "cat": "system-design",
+    "desc": "Command execution, key space inspection, caching layer management, and pub/sub message inspection.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Neon Serverless Postgres",
+    "cat": "system-design",
+    "desc": "Natural language management of serverless Postgres instances, point-in-time recovery, and database branching.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Qdrant Vector Engine MCP",
+    "cat": "system-design",
+    "desc": "Persistent memory storage, payload filtering, vector search execution, and semantic index administration.",
+    "transport": "Stdio / Python",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Supabase Cloud MCP",
+    "cat": "system-design",
+    "desc": "Comprehensive backend management covering database migrations, edge functions, storage buckets, and Auth rules.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Bytebase DBHub Multi-DB",
+    "cat": "system-design",
+    "desc": "Token-conscious single MCP server managing schema inspection and query execution across Postgres, MySQL, and SQL Server.",
+    "transport": "Stdio / Go",
+    "link": "https://github.com/bytebase/dbhub"
+  },
+  {
+    "name": "StarRocks Analytics Engine",
+    "cat": "system-design",
+    "desc": "High-performance SQL query interface optimized for large-scale enterprise data warehousing and analytics.",
+    "transport": "Stdio / Java",
+    "link": "https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025"
+  },
+  {
+    "name": "AWS Infrastructure MCP",
+    "cat": "system-design",
+    "desc": "AWS service documentation lookup, billing analysis, CDK synthesis, and cloud resource metadata inspection.",
+    "transport": "Stdio / Python",
+    "link": "https://github.com/awslabs/mcp"
+  },
+  {
+    "name": "AWS KB Bedrock Retrieval",
+    "cat": "system-design",
+    "desc": "Direct vector lookup and knowledge retrieval against custom enterprise AWS Bedrock Knowledge Bases.",
+    "transport": "Stdio / Python",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "HashiCorp Terraform MCP",
+    "cat": "system-design",
+    "desc": "Structured inspection of official Terraform providers, module registry metadata, and HCL code validation.",
+    "transport": "Stdio / Go",
+    "link": "https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025"
+  },
+  {
+    "name": "Docker Container Stack MCP",
+    "cat": "system-design",
+    "desc": "Container management, multi-container compose orchestration, log streaming, and volume inspection.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Cloudflare Developer Platform",
+    "cat": "system-design",
+    "desc": "Deploy, configure, and interrogate Workers, KV stores, R2 storage, and D1 relational databases.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Railway Infrastructure MCP",
+    "cat": "system-design",
+    "desc": "Environment variables pull/push, project deployment management, service health checks, and cloud logs.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "dbt Semantic Layer MCP",
+    "cat": "system-design",
+    "desc": "Exposes project dependency graphs, semantic metrics, data model definitions, and CLI execution.",
+    "transport": "Stdio / Python",
+    "link": "https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025"
+  },
+  {
+    "name": "Keboola Data Operations",
+    "cat": "system-design",
+    "desc": "Unifies enterprise ETL/ELT pipelines, automates data transformations, and orchestrates cloud storage sync.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Sentry Telemetry MCP",
+    "cat": "system-design",
+    "desc": "Application issue extraction, exception stack trace analysis, alert management, and release tracking.",
+    "transport": "Stdio / Python",
+    "link": "https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025"
+  },
+  {
+    "name": "Semgrep Vulnerability Scanner",
+    "cat": "system-design",
+    "desc": "Static code analysis scanning for security vulnerabilities, OWASP Top 10 bugs, and custom rule violations.",
+    "transport": "Stdio / Python",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "OSV Vulnerability Database",
+    "cat": "system-design",
+    "desc": "Queries Open Source Vulnerabilities database by package version, commit hash, or ecosystem vulnerability ID.",
+    "transport": "Stdio / Go",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Vulert Dependency Security",
+    "cat": "system-design",
+    "desc": "Real-time open-source dependency auditing without uploading full source code manifests or binaries.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Microsoft Entra ID MCP",
+    "cat": "system-design",
+    "desc": "Advanced Graph API querying for tenant users, MFA compliance status, sign-in audit logs, and privileged access.",
+    "transport": "Stdio / C#",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Keycloak Identity Manager",
+    "cat": "system-design",
+    "desc": "Natural language administration of user accounts, group memberships, client applications, and realm configurations.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Thales CipherTrust Suite",
+    "cat": "system-design",
+    "desc": "Enterprise cryptographic key management, secret rotation, and data protection across enterprise applications.",
+    "transport": "Stdio / REST",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Netwrix Access Analyzer",
+    "cat": "system-design",
+    "desc": "FastMCP security server analyzing identity access governance, permissions inheritance, and data exposure risks.",
+    "transport": "Stdio / Python",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Vantage Cloud Cost Analytics",
+    "cat": "system-design",
+    "desc": "FinOps cloud visibility analyzing infrastructure cost trends, cross-cloud spend patterns, and waste reduction.",
+    "transport": "Stdio / Go",
+    "link": "https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025"
+  },
+  {
+    "name": "GitHub Official MCP",
+    "cat": "engineering",
+    "desc": "Repository manipulation, issue tracking, pull request management, code search, and GitHub Actions control.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Git Repository MCP",
+    "cat": "engineering",
+    "desc": "Direct local Git operations including commit history inspection, branch creation, diffing, and stash management.",
+    "transport": "Stdio / uvx",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "GitLab API MCP",
+    "cat": "engineering",
+    "desc": "Project management, merge request review, issue management, and pipeline status querying within GitLab instances.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Chrome DevTools MCP",
+    "cat": "engineering",
+    "desc": "Live inspection, console error log monitoring, network request capture, and DOM element evaluation via coding agents.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Proxyman Network Debugging",
+    "cat": "engineering",
+    "desc": "Allows Claude to inspect HTTP/HTTPS network traffic, analyze payload headers, and create mock debugging rules.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "iOS/macOS Xcode Tooling",
+    "cat": "engineering",
+    "desc": "Command-line tool and agent environment for building, running tests, and inspecting Swift/Objective-C projects.",
+    "transport": "Stdio / Swift",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "E2B Cloud Sandbox MCP",
+    "cat": "engineering",
+    "desc": "Secure, isolated cloud container runtime for running untrusted code snippets and data analysis routines.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Microsandbox Executable",
+    "cat": "engineering",
+    "desc": "Self-hosted, lightweight code execution platform providing local agent sandboxing for secure code execution.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "MCP Inspector Visual Debugger",
+    "cat": "engineering",
+    "desc": "Visual developer testing harness for inspecting, debugging, and testing tool calls across custom MCP servers.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol"
+  },
+  {
+    "name": "MCP Everything Reference",
+    "cat": "engineering",
+    "desc": "Comprehensive reference implementation bundling prompts, resources, and tools into a single test harness.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/mctrinh/awesome-mcp-servers"
+  },
+  {
+    "name": "GitHub Repo Server (LogLMHQ)",
+    "cat": "engineering",
+    "desc": "Lightweight MCP server specifically tuned for scanning GitHub repository contents and structural layouts.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/servers/loglmhq/mcp-server-github-repo"
+  },
+  {
+    "name": "GitHub MCP (Mazedur1056)",
+    "cat": "engineering",
+    "desc": "Custom GitHub bridge connecting Claude and Cursor environments for seamless issue and PR management.",
+    "transport": "Stdio / Node",
+    "link": "https://lobehub.com/fr/mcp/mazedur1056-github-mcp-server"
+  },
+  {
+    "name": "Context7 Documentation MCP",
+    "cat": "documentation",
+    "desc": "Fetches version-specific library documentation and code examples directly into AI prompts to prevent API hallucinations.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Next.js DevTools MCP",
+    "cat": "documentation",
+    "desc": "Provides Next.js development utilities, build debugging diagnostics, and server component context to Claude.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Mermaid Rendering Engine",
+    "cat": "documentation",
+    "desc": "Converts Mermaid text definitions into high-resolution PNG or SVG vector files for local inline presentation.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/mermaid-js/mermaid"
+  },
+  {
+    "name": "Mermaid AI Workflow MCP",
+    "cat": "documentation",
+    "desc": "Official Mermaid diagram generation tool assisting in flowcharts, sequence diagrams, and visual system maps.",
+    "transport": "Stdio / Node",
+    "link": "https://mermaid.ai/docs/ai/mcp-server"
+  },
+  {
+    "name": "MCP Mermaid Visual Intel",
+    "cat": "documentation",
+    "desc": "Comprehensive visual diagram generation, validation, structural analysis, and SVG rendering platform.",
+    "transport": "Stdio / Node",
+    "link": "https://lobehub.com/mcp/kayaozkur-mcp-server-mermaid"
+  },
+  {
+    "name": "Hustcc Mermaid & Chart MCP",
+    "cat": "documentation",
+    "desc": "Dynamic rendering engine converting structured data into visual Mermaid flowcharts, charts, and spatial maps.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/hustcc/mcp-mermaid"
+  },
+  {
+    "name": "Interactive Mermaid Viewer",
+    "cat": "documentation",
+    "desc": "MCP App rendering Mermaid diagrams within an interactive viewer featuring pan, zoom, and live editor panels.",
+    "transport": "HTTP / Remote",
+    "link": "https://github.com/finfin/mermaid-mcp-app"
+  },
+  {
+    "name": "Claude Mermaid Exporter",
+    "cat": "documentation",
+    "desc": "Saves generated diagram files directly into specified workspace paths, facilitating automated documentation builds.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/veelenga/claude-mermaid"
+  },
+  {
+    "name": "Diagrams MCP (PlantUML)",
+    "cat": "documentation",
+    "desc": "Unified rendering engine executing both Mermaid and PlantUML definition files into static visual artifacts.",
+    "transport": "Stdio / Python",
+    "link": "https://github.com/ByteOverDev/diagrams-mcp"
+  },
+  {
+    "name": "Repo Architecture Mermaid",
+    "cat": "documentation",
+    "desc": "Automatically scans local or remote Git repositories to visualize package structures and dependency trees.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/peng-shawn/mermaid-mcp-server"
+  },
+  {
+    "name": "Memory Knowledge Graph",
+    "cat": "documentation",
+    "desc": "Persistent knowledge graph storing entities, relations, and qualitative insights across Claude operational sessions.",
+    "transport": "Stdio / npx",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Granola Meeting Notes MCP",
+    "cat": "documentation",
+    "desc": "Directly queries Granola meeting transcripts, notes, and audio summaries to extract key operational decisions.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "NotebookLM CLI Integration",
+    "cat": "documentation",
+    "desc": "Connects CLI agents to NotebookLM notebooks for zero-hallucination document-grounded question answering.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Internet Archive Open Library",
+    "cat": "documentation",
+    "desc": "Enables searches against millions of cataloged books, historical texts, and author bibliographies.",
+    "transport": "Stdio / Python",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Exa Neural Search Engine",
+    "cat": "documentation",
+    "desc": "Specialized search engine optimized for AI agents, retrieving clean, semantically relevant web content.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Brave Web & Local Search",
+    "cat": "documentation",
+    "desc": "Official web search integration allowing Claude to search the public web and local directories securely.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Fetch Web Page Converter",
+    "cat": "documentation",
+    "desc": "Retrieves web pages and converts raw HTML into clean, token-efficient Markdown representations.",
+    "transport": "Stdio / uvx",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "LLM-Context Extractor",
+    "cat": "documentation",
+    "desc": "Packs repository code and file structures into structured context blocks for clipboard or API consumption.",
+    "transport": "Stdio / Rust",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Atlassian Confluence Base",
+    "cat": "documentation",
+    "desc": "Connects Claude to corporate Confluence spaces, searching pages, specs, and meeting documentation.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Google Drive File Access",
+    "cat": "documentation",
+    "desc": "Authorizes Claude to search, read, and process Google Docs, spreadsheets, and drive document trees.",
+    "transport": "Stdio / Python",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Google Search Console MCP",
+    "cat": "documentation",
+    "desc": "Connects to Google Search Console to analyze website performance, organic query metrics, and indexation status.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Playwright MCP",
+    "cat": "automation",
+    "desc": "Headless browser automation executing web navigation, form interaction, visual assertions, and page scraping.",
+    "transport": "Stdio / Node",
+    "link": "https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025"
+  },
+  {
+    "name": "Puppeteer Scraping MCP",
+    "cat": "automation",
+    "desc": "Browser automation engine for web crawling, DOM extraction, PDF printing, and dynamic page rendering.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Ego Lite Fast Browser",
+    "cat": "automation",
+    "desc": "High-speed browser automation engine sharing pre-authenticated state with coding agents at zero compute cost.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Filesystem Secure I/O",
+    "cat": "automation",
+    "desc": "Secure local file operations enforcing strict directory path permissions and file manipulation access controls.",
+    "transport": "Stdio / npx",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Fast Filesystem Extended",
+    "cat": "automation",
+    "desc": "Optimized filesystem server featuring large file chunking, structural searches, and fast file transformations.",
+    "transport": "Stdio / Rust",
+    "link": "https://github.com/appcypher/awesome-mcp-servers"
+  },
+  {
+    "name": "Sequential Thinking Server",
+    "cat": "automation",
+    "desc": "Structured reflective reasoning server enabling dynamic, step-by-step problem-solving and plan adjustments.",
+    "transport": "Stdio / npx",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Time & Timezone Conversion",
+    "cat": "automation",
+    "desc": "Local system time lookup, epoch timestamp calculation, and cross-timezone scheduling conversions.",
+    "transport": "Stdio / uvx",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Atlassian Jira Automation",
+    "cat": "automation",
+    "desc": "Triage incoming issues, generate backlog tasks, transition workflow statuses, and update ticket details.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Opsgenie Incident Manager",
+    "cat": "automation",
+    "desc": "Triage operational alerts, query on-call schedules, escalate system outages, and post post-mortem notes.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Cal.com Scheduling MCP",
+    "cat": "automation",
+    "desc": "Queries calendar availability, books appointment slots, and manages booking cancellations automatically.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Slack Team Communication",
+    "cat": "automation",
+    "desc": "Channel listing, thread reading, message posting, and automated team alerting within Slack workspaces.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Google Maps Geospatial",
+    "cat": "automation",
+    "desc": "Location geocoding, distance calculation, place detailing, and routing direction generation via Google Maps API.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "EverArt AI Image Gen",
+    "cat": "automation",
+    "desc": "Generates visual assets and marketing imagery using customizable, multi-model AI image generation endpoints.",
+    "transport": "Stdio / Node",
+    "link": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "MiniMax Media Generation",
+    "cat": "automation",
+    "desc": "Connects Claude to MiniMax APIs for high-quality text-to-speech rendering, image generation, and video synthesis.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "BaseBounty On-Chain Escrow",
+    "cat": "automation",
+    "desc": "Autonomous agent job execution platform taking paid jobs and processing USDC payments via ERC-8183 escrow.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  },
+  {
+    "name": "Alpha Vantage Market Analytics",
+    "cat": "automation",
+    "desc": "Financial market data lookup, real-time stock quotes, historical ticker trends, and economic indicator queries.",
+    "transport": "HTTP / Remote",
+    "link": "https://mcpservers.org/"
+  }
+]

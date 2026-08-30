@@ -1,0 +1,702 @@
+[
+  {
+    "name": "frontend-design",
+    "cat": "ux-design",
+    "desc": "Instructs Claude to create distinctive, production-grade frontend components, avoiding generic layout templates and enforcing custom typography and spatial grids.",
+    "source": "Anthropic Official Skill",
+    "link": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "penpot-uiux-design",
+    "cat": "ux-design",
+    "desc": "Teaches multi-step UI layout procedures, spacing rules, and WCAG AA contrast rules for Penpot visual designs.",
+    "source": "Penpot / LobeHub Skill",
+    "link": "https://lobehub.com/skills/github-awesome-copilot-penpot-uiux-design"
+  },
+  {
+    "name": "figma-generate-design",
+    "cat": "ux-design",
+    "desc": "Enforces a strict parallel workflow for resolving design tokens, component keys, and structural frames before mutating Figma canvases.",
+    "source": "Figma Official Skill",
+    "link": "https://github.com/figma/mcp-server-guide/blob/main/skills/figma-generate-design/SKILL.md"
+  },
+  {
+    "name": "figma-use",
+    "cat": "ux-design",
+    "desc": "Core instruction prerequisite for Figma interaction: font loading, node hierarchy parsing, and color normalization.",
+    "source": "Figma Official Skill",
+    "link": "https://github.com/figma/mcp-server-guide"
+  },
+  {
+    "name": "web-design-engineer",
+    "cat": "ux-design",
+    "desc": "Turns Claude into a senior UI/UX engineer skilled at responsive layouts, CSS grid systems, and modern component state management.",
+    "source": "Garden Skills Package",
+    "link": "https://github.com/ConardLi/garden-skills/blob/main/skills/web-design-engineer/README.md"
+  },
+  {
+    "name": "brand-guidelines",
+    "cat": "ux-design",
+    "desc": "Applies official brand colors, typographic hierarchy, logo margins, and corporate identity rules to generated artifacts.",
+    "source": "Anthropic / Composio Skill",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "ui-ux-reviewer",
+    "cat": "ux-design",
+    "desc": "Evaluates existing application UI code against visual hierarchy guidelines, touch target dimensions, and interactive feedback states.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "tail-wind-styler",
+    "cat": "ux-design",
+    "desc": "Teaches utility-first CSS strategies: responsive breakpoints, theme extension patterns, arbitrary value minimization.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "accessibility-wcag-auditor",
+    "cat": "ux-design",
+    "desc": "Audits frontend HTML/JSX for screen reader aria-attributes, focus traps, semantic markup, and WCAG 2.1 AAA compliance.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "svg-designer",
+    "cat": "ux-design",
+    "desc": "Guides hand-crafted, vector-optimized SVG code with responsive viewBox parameters and CSS animation paths.",
+    "source": "Anthropic Official Skill",
+    "link": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "excalidraw-canvas-skill",
+    "cat": "ux-design",
+    "desc": "Enables coding agents to draw, screenshot, auto-arrange, and iteratively refine .excalidraw diagram files.",
+    "source": "Excalidraw Workbench",
+    "link": "https://github.com/yctimlin/mcp_excalidraw"
+  },
+  {
+    "name": "color-palette-generator",
+    "cat": "ux-design",
+    "desc": "Algorithmic rules for generating accessible primary, secondary, functional, and semantic color scales.",
+    "source": "Brand Build Library",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "typography-scale-designer",
+    "cat": "ux-design",
+    "desc": "Constructs modular typographic ratio scales (Major Third, Golden Ratio) and fluid responsive font sizing systems.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "mobile-ui-designer",
+    "cat": "ux-design",
+    "desc": "Focuses design logic on native mobile patterns (iOS HIG, Android Material 3), thumb zones, and bottom sheets.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "design-tokens-manager",
+    "cat": "ux-design",
+    "desc": "Automates conversion of design tokens into Tailwind CSS configs, SCSS variables, and CSS custom properties.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "component-library-builder",
+    "cat": "ux-design",
+    "desc": "Enforces atomic design methodology (Atoms, Molecules, Organisms) for modular frontend code architecture.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "figjam-plan-generator",
+    "cat": "ux-design",
+    "desc": "Formats product requirements and user journey mapping inputs into structured FigJam board creation steps.",
+    "source": "Figma Official Skill",
+    "link": "https://github.com/figma/mcp-server-guide"
+  },
+  {
+    "name": "video-interaction-mapper",
+    "cat": "ux-design",
+    "desc": "Analyzes UI interaction video frames and converts them into annotated Figma storyboard specs.",
+    "source": "Figma Official Skill",
+    "link": "https://github.com/figma/mcp-server-guide"
+  },
+  {
+    "name": "dark-mode-adapter",
+    "cat": "ux-design",
+    "desc": "Provides systemic rules for mapping light-mode color variables to dark-mode equivalents without losing visual hierarchy.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "micro-interaction-animator",
+    "cat": "ux-design",
+    "desc": "Guides Framer Motion and CSS keyframe animations for polished hover, press, and loading states.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "iconography-guide",
+    "cat": "ux-design",
+    "desc": "Establishes rules for consistent icon sizing, stroke weights, bounding boxes, and framework integration (Lucide, Heroicons).",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "dashboard-layout-designer",
+    "cat": "ux-design",
+    "desc": "Teaches layout patterns for complex enterprise dashboards, metric cards, sidebar navigations, and data grids.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "user-flow-mapper",
+    "cat": "ux-design",
+    "desc": "Transforms feature user stories into sequential step-by-step wireframe nodes and interface state charts.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "responsive-grid-builder",
+    "cat": "ux-design",
+    "desc": "Standardizes 12-column layout grids, flexbox alignment logic, and mobile-first breakpoint rules across viewports.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "api-design-reviewer",
+    "cat": "system-design",
+    "desc": "Audits REST and gRPC API designs for URL consistency, HTTP status code accuracy, pagination, and error payload structures.",
+    "source": "Borghei Claude Skills",
+    "link": "https://github.com/borghei/Claude-Skills"
+  },
+  {
+    "name": "database-schema-architect",
+    "cat": "system-design",
+    "desc": "Guides third-normal-form relational schema design, index strategy selection, and foreign key constraint setups.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "terraform-module-builder",
+    "cat": "system-design",
+    "desc": "Standardizes HCL code organization, variable definitions, output mappings, and remote backend states for IaC modules.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "graphql-schema-designer",
+    "cat": "system-design",
+    "desc": "Enforces relay spec compliance, custom scalar validation, query complexity limits, and N+1 query prevention.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "kubernetes-manifest-generator",
+    "cat": "system-design",
+    "desc": "Generates compliant K8s Deployment, Service, Ingress, and ConfigMap YAMLs with strict resource request/limit definitions.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "microservices-architect",
+    "cat": "system-design",
+    "desc": "Outlines domain-driven design (DDD) boundaries, event-driven integration patterns, and distributed transaction strategies.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "error-handling-patterns",
+    "cat": "system-design",
+    "desc": "Enforces uniform error classification, structured logging schemas, circuit breaker patterns, and graceful degradation.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "vault-secrets-manager",
+    "cat": "system-design",
+    "desc": "Teaches application secret handling using dynamic secret injection, HashiCorp Vault integrations, and rotation rules.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "dockerfile-optimizer",
+    "cat": "system-design",
+    "desc": "Multi-stage Dockerfile construction rules emphasizing minimal base images, layer caching order, and non-root execution.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "design-system-architect",
+    "cat": "system-design",
+    "desc": "Standardizes the structure for W3C-compliant JSON design tokens, theme toggling logic, and multi-brand style dictionaries.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "code-review",
+    "cat": "engineering",
+    "desc": "Automated reviewer checking diffs for edge-case bugs, security vulnerabilities, style violations, and test coverage.",
+    "source": "Claude Code Bundled Skill",
+    "link": "https://code.claude.com/docs/en/skills"
+  },
+  {
+    "name": "test-fixing",
+    "cat": "engineering",
+    "desc": "Analyzes failing test runner logs, identifies root assertion failures, and drafts targeted code patches.",
+    "source": "Awesome Claude Skills",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "review-implementing",
+    "cat": "engineering",
+    "desc": "Evaluates code implementation plans against technical specs before code is written, ensuring architectural alignment.",
+    "source": "Awesome Claude Skills",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "git-pushing",
+    "cat": "engineering",
+    "desc": "Automates git commit formatting, branch naming conventions, conflict checks, and PR creation workflows.",
+    "source": "Awesome Claude Skills",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "ci-cd-pipeline-builder",
+    "cat": "engineering",
+    "desc": "Drafts optimized GitHub Actions workflows, GitLab CI YAMLs, caching layers, and security scanning jobs.",
+    "source": "Borghei Claude Skills",
+    "link": "https://github.com/borghei/Claude-Skills"
+  },
+  {
+    "name": "security-audit-sast",
+    "cat": "engineering",
+    "desc": "Evaluates source code for OWASP Top 10 risks, SQL injection, hardcoded credentials, and unsafe deserialization.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "refactoring-expert",
+    "cat": "engineering",
+    "desc": "Applies Fowler's refactoring patterns to simplify complex code, reduce cyclomatic complexity, and extract reusable modules.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "performance-profiler",
+    "cat": "engineering",
+    "desc": "Guides performance bottleneck identification, memory leak diagnosis, CPU profiling interpretation, and optimization.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "python-clean-code",
+    "cat": "engineering",
+    "desc": "Enforces PEP 8 style, explicit type hint annotations, docstrings, and stdlib idioms across Python codebases.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "typescript-strict-migrator",
+    "cat": "engineering",
+    "desc": "Step-by-step strategies for migrating JavaScript projects to TypeScript with strict flag enablement.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "sql-query-optimizer",
+    "cat": "engineering",
+    "desc": "Explains SQL EXPLAIN ANALYZE outputs, recommending index additions, CTE refactoring, and query rewrite strategies.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "async-concurrency-guide",
+    "cat": "engineering",
+    "desc": "Prevents race conditions, deadlocks, and thread safety bugs in asynchronous code (asyncio, Promises, goroutines).",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "dependency-updater",
+    "cat": "engineering",
+    "desc": "Safe dependency upgrading workflow checking breaking release notes, semver risks, and audit alerts.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "rust-memory-safety",
+    "cat": "engineering",
+    "desc": "Guides Rust developers through ownership, borrowing, lifetime annotations, and safe wrapper encapsulation for unsafe code.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "go-cli-builder",
+    "cat": "engineering",
+    "desc": "Standardizes Go CLI application structure using Cobra, Viper configuration loading, and standard I/O pipelines.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "deep-learning-tutor",
+    "cat": "engineering",
+    "desc": "Comprehensive companion skill referencing deep learning textbook concepts, AdamW optimization deltas, and diagnostic paths.",
+    "source": "Reusable Companion Skill",
+    "link": "https://github.com/alirezarezvani/claude-skills/blob/main/CLAUDE.md"
+  },
+  {
+    "name": "e2e-playwright-tester",
+    "cat": "engineering",
+    "desc": "Directs writing robust end-to-end integration tests using Playwright with auto-waiting and selector strategies.",
+    "source": "Anthropic Technical Skill",
+    "link": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "mcp-server-generator",
+    "cat": "engineering",
+    "desc": "Guides scaffolding and writing boilerplate code for new TypeScript/Python MCP servers.",
+    "source": "Anthropic Technical Skill",
+    "link": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "csv-data-cleaner",
+    "cat": "engineering",
+    "desc": "Multi-step data cleaning: handling missing values, parsing dates, deduplication, and format normalization.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "web-scraper-stealth",
+    "cat": "engineering",
+    "desc": "Instructions for writing clean web scraping scripts handling rate limiting, user-agent rotation, and DOM parsing.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "codebase-onboarding",
+    "cat": "documentation",
+    "desc": "Scans target repos to build architecture overviews, annotated file maps, setup steps, and developer runbooks.",
+    "source": "Borghei Claude Skills",
+    "link": "https://github.com/borghei/Claude-Skills/blob/main/engineering/codebase-onboarding/SKILL.md"
+  },
+  {
+    "name": "changelog-generator",
+    "cat": "documentation",
+    "desc": "Analyzes Git commit logs and PR titles to draft structured, conventional-changelog formatted release notes.",
+    "source": "Borghei Claude Skills",
+    "link": "https://github.com/borghei/Claude-Skills"
+  },
+  {
+    "name": "pdf-processing-guide",
+    "cat": "documentation",
+    "desc": "Exact Python recipes (pypdf, pdfplumber) for reading, extracting form fields, and editing PDF files.",
+    "source": "Anthropic Document Skill",
+    "link": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "docx-document-editor",
+    "cat": "documentation",
+    "desc": "Comprehensive guidelines for programmatic docx document generation, styling, table formatting, and layout.",
+    "source": "Anthropic Document Skill",
+    "link": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "pptx-presentation-builder",
+    "cat": "documentation",
+    "desc": "Rules for generating PowerPoint files using python-pptx: slide layout structures, brand themes, visual hierarchy.",
+    "source": "Anthropic Document Skill",
+    "link": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "xlsx-spreadsheet-manager",
+    "cat": "documentation",
+    "desc": "Guidelines for constructing openpyxl spreadsheet workbooks, calculated formulas, data tables, and chart objects.",
+    "source": "Anthropic Document Skill",
+    "link": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "mermaid-diagram-author",
+    "cat": "documentation",
+    "desc": "Teaches syntax rules for Mermaid flowcharts, sequence diagrams, ER diagrams, and state diagrams.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "api-documentation-writer",
+    "cat": "documentation",
+    "desc": "Converts API route code and schemas into human-readable Markdown documentation with curl examples.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "readme-craftsman",
+    "cat": "documentation",
+    "desc": "Formats GitHub repository README files with badges, architecture diagrams, installation instructions, and contribution guides.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "architecture-decision-records",
+    "cat": "documentation",
+    "desc": "Templates and rules for writing clear ADRs (Architecture Decision Records) using MADR format.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "technical-spec-writer",
+    "cat": "documentation",
+    "desc": "Guides drafting RFCs and Technical Product Requirement Documents (PRDs) for PMs and senior engineers.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "book-to-skill-companion",
+    "cat": "documentation",
+    "desc": "Framework for indexing technical books or external manuals into structured, token-conscious reference skills.",
+    "source": "Reusable Meta-Skill",
+    "link": "https://github.com/alirezarezvani/claude-skills/blob/main/CLAUDE.md"
+  },
+  {
+    "name": "knowledge-ops",
+    "cat": "documentation",
+    "desc": "Establishes rules for organizing corporate knowledge bases, taxonomy tagging, and deduplicating wiki pages.",
+    "source": "Business Operations",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "process-mapper",
+    "cat": "documentation",
+    "desc": "Translates operational business processes into standardized Business Process Model and Notation (BPMN) diagrams.",
+    "source": "Business Operations",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "release-notes-summarizer",
+    "cat": "documentation",
+    "desc": "Distills complex multi-repository PRs into non-technical customer-facing product release announcements.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "post-mortem-writer",
+    "cat": "documentation",
+    "desc": "Standardized blameless incident post-mortem template covering timeline creation, root cause analysis (5 Whys), action items.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "runbook-generator",
+    "cat": "documentation",
+    "desc": "Formats operational troubleshooting runbooks with step-by-step diagnostic commands and rollback triggers.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "prompt-master",
+    "cat": "documentation",
+    "desc": "Assists in drafting highly accurate system prompts for various LLM tools without wasting context.",
+    "source": "Prompt Master Skill",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "outline-wiki-manager",
+    "cat": "documentation",
+    "desc": "Instructions for querying, structuring, and formatting documentation pages inside Outline wiki instances.",
+    "source": "Awesome Claude Skills",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "dev-setup-guide-author",
+    "cat": "documentation",
+    "desc": "Generates copy-paste verified local environment setup steps, missing dependency checks, env variable descriptions.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "data-dictionary-builder",
+    "cat": "documentation",
+    "desc": "Converts raw SQL schemas and data warehouse tables into annotated business data dictionaries with lineage notes.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "swagger-openapi-docs",
+    "cat": "documentation",
+    "desc": "Converts plain text or code annotations into OpenAPI 3.1 specification YAML files with complete schema definitions.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "user-manual-creator",
+    "cat": "documentation",
+    "desc": "Guides creation of end-user feature documentation, complete with step-by-step walkthroughs and visual callouts.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "sysadmin-cheatsheet-builder",
+    "cat": "documentation",
+    "desc": "Builds custom command-line cheat sheets for sysadmins, categorized by operational task and safety level.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "internal-comms-writer",
+    "cat": "documentation",
+    "desc": "Helps draft company newsletters, status updates, 3P reports (Progress, Plans, Problems), and executive FAQs.",
+    "source": "Business Operations",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "planning-with-files",
+    "cat": "automation",
+    "desc": "Persistent file-based planning for coding agents; creates crash-proof markdown plans and prevents context rot over long tasks.",
+    "source": "Planning Framework",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "skill-creator",
+    "cat": "automation",
+    "desc": "Meta-skill providing a complete workflow and template for creating, testing, and packaging new Claude SKILL.md packages.",
+    "source": "Anthropic / Composio Skill",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills/blob/master/skill-creator/SKILL.md"
+  },
+  {
+    "name": "verify-workflow",
+    "cat": "automation",
+    "desc": "Runs project builds and test suites, records successful execution steps into .claude/skills/verify/SKILL.md for future agents.",
+    "source": "Claude Code Bundled Skill",
+    "link": "https://code.claude.com/docs/en/skills"
+  },
+  {
+    "name": "vendor-management",
+    "cat": "automation",
+    "desc": "Framework for analyzing vendor proposals, evaluating SLAs, calculating TCO, and tracking contract renewals.",
+    "source": "Business Operations",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "capacity-planner",
+    "cat": "automation",
+    "desc": "Teaches Claude to calculate engineering sprint velocity, resource allocation limits, and project delivery timelines.",
+    "source": "Business Operations",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "procurement-optimizer",
+    "cat": "automation",
+    "desc": "Standardizes software and hardware purchasing workflows, competitive bidding evaluations, and compliance gates.",
+    "source": "Business Operations",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "pricing-strategist",
+    "cat": "automation",
+    "desc": "Analyzes product tiering, unit economics, value metric pricing models, and SaaS monetization strategies.",
+    "source": "Commercial & Finance",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "deal-desk-orchestrator",
+    "cat": "automation",
+    "desc": "Automates enterprise sales deal review, discounting authorization logic, and custom contract term approvals.",
+    "source": "Commercial & Finance",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "google-workspace-automation",
+    "cat": "automation",
+    "desc": "Cheatsheet rules for executing complex multi-product actions across Google Docs, Sheets, Calendar, and Drive.",
+    "source": "Awesome Claude Skills",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "github-workflow-automation",
+    "cat": "automation",
+    "desc": "Instruction set for managing repository issues, reviewing PRs, and running GitHub Actions workflows from Claude Code.",
+    "source": "Official Plugin Skill",
+    "link": "https://claudecowork.im/resources/github"
+  },
+  {
+    "name": "mercury-agent-orchestrator",
+    "cat": "automation",
+    "desc": "Multi-agent coordination instructions for messaging agent teammates, managing threads, and scheduling background jobs.",
+    "source": "Mercury Agent Skill",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "competitive-ads-extractor",
+    "cat": "automation",
+    "desc": "Guides extracting, categorizing, and analyzing competitors' ad creative strategies.",
+    "source": "Awesome Claude Skills",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "domain-name-brainstormer",
+    "cat": "automation",
+    "desc": "Generates creative domain names based on brand constraints and checks TLD availability patterns.",
+    "source": "Awesome Claude Skills",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "seo-audit-suite",
+    "cat": "automation",
+    "desc": "Comprehensive SEO diagnostic workflow covering meta tags, canonical link verification, header structure, site crawl analysis.",
+    "source": "RampStack Skill Library",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+    "name": "incident-triage-runbook",
+    "cat": "automation",
+    "desc": "Rules for triaging incoming production errors, determining severity levels (P1-P4), and routing on-call alerts.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "cron-job-scheduler-guide",
+    "cat": "automation",
+    "desc": "Converts natural language recurring schedules into valid cron expressions with timezone handling.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "batch-file-renamer",
+    "cat": "automation",
+    "desc": "Safe file system operation instructions for batch renaming workspace files using regex patterns with dry-run verification.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "slack-bot-notifier",
+    "cat": "automation",
+    "desc": "Formats block-kit JSON payloads for automated Slack alerts, deployment notifications, and incident updates.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "jira-sprint-planner",
+    "cat": "automation",
+    "desc": "Converts user story maps into formatted Jira issue backlogs with acceptance criteria, story points, and epics.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "workflow-orchestrator",
+    "cat": "automation",
+    "desc": "General-purpose task decomposition skill that breaks complex user goals into explicit sequential execution pipelines.",
+    "source": "Claude Skills Library",
+    "link": "https://github.com/alirezarezvani/claude-skills"
+  },
+  {
+    "name": "nightly-sleep-cycle-opt",
+    "cat": "automation",
+    "desc": "Automated session harvest skill that mines daily coding session transcripts for recurring tasks and updates skills.",
+    "source": "Skill Optimization",
+    "link": "https://github.com/alirezarezvani/claude-skills/blob/main/CLAUDE.md"
+  }
+]
