@@ -14,7 +14,7 @@ Report an entry if you notice any of the following:
 - The linked project was compromised, for example a maintainer account takeover or a malicious release
 - The description in this repo no longer matches what the project actually does
 
-To report one, open an issue with the label `flag-listing`, or use GitHub's private vulnerability reporting form on this repository if the issue involves an active exploit or credential exposure. Include:
+To report one, open an issue using the **Flag a broken or suspicious listing** template (it already carries the `flag-listing` label), or use GitHub's private vulnerability reporting form on this repository if the issue involves an active exploit or credential exposure. Include:
 
 - The name of the skill or connector as it appears in `data/skills.json` or `data/connectors.json`
 - A link to the evidence (a GitHub issue, an archived repo notice, a security advisory)
@@ -24,7 +24,7 @@ We aim to review flagged listings within a few days. Depending on severity, the 
 
 ## Reporting a vulnerability in this repository's own code
 
-This repo's own code surface is small: a few Python build scripts and a static site (`docs/`) with no server-side component and no user data collection. If you still find a security issue in it, for example a script that could be tricked into writing outside its intended directory, or a site script that mishandles data unsafely, report it privately using GitHub's "Report a vulnerability" feature under the Security tab of this repository, rather than opening a public issue.
+This repo's own code surface is small: a few Python build scripts and a static site (`docs/`) with no server-side component and no user data collection. If you still find a security issue in it, for example a script that could be tricked into writing outside its intended directory, or a site script that mishandles data unsafely, report it privately using GitHub's "Report a vulnerability" feature under the Security tab of this repository, rather than opening a public issue. The same link is also surfaced when you start a new issue, under "Report a security concern."
 
 Please include steps to reproduce the issue and the potential impact. We'll acknowledge the report and follow up as we look into it.
 
