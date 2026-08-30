@@ -19,7 +19,19 @@ def by_cat(items, cat):
 
 
 lines = []
-lines.append("# Claude Skills & Connectors Directory")
+lines.append('<p align="center">')
+lines.append('  <img src="docs/assets/banner.jpg" alt="Awesome Claude Skills and Connectors" width="100%">')
+lines.append('</p>')
+lines.append("")
+lines.append('<p align="center">')
+lines.append(f'  <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-1e3a2f">')
+lines.append(f'  <img alt="Skills" src="https://img.shields.io/badge/skills-{len(skills)}-a9803f">')
+lines.append(f'  <img alt="Connectors" src="https://img.shields.io/badge/connectors-{len(connectors)}-7a3b23">')
+lines.append('  <img alt="Categories" src="https://img.shields.io/badge/categories-5-1e3a2f">')
+lines.append('  <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-1e3a2f">')
+lines.append('</p>')
+lines.append("")
+lines.append("# Awesome Claude Skills and Connectors")
 lines.append("")
 lines.append(
     f"A curated, categorized archive of {len(skills)} Claude Skills and {len(connectors)} "
@@ -28,7 +40,7 @@ lines.append(
 )
 lines.append("")
 lines.append(
-    "Browse it here as a table, or check out the **[interactive site](https://AzyzHm.github.io/awesome-claude-skills-and-connectors/)** "
+    "Browse it here as a table, or check out the **[interactive site](https://azyzhm.github.io/awesome-claude-skills-and-connectors/)** "
     "for search and filtering."
 )
 lines.append("")

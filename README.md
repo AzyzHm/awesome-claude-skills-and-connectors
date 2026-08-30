@@ -1,9 +1,20 @@
-# Claude Skills & Connectors Directory
+<p align="center">
+  <img src="docs/assets/banner.jpg" alt="Awesome Claude Skills and Connectors" width="100%">
+</p>
+
+<p align="center">
+  <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-1e3a2f">
+  <img alt="Skills" src="https://img.shields.io/badge/skills-101-a9803f">
+  <img alt="Connectors" src="https://img.shields.io/badge/connectors-95-7a3b23">
+  <img alt="Categories" src="https://img.shields.io/badge/categories-5-1e3a2f">
+  <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-1e3a2f">
+</p>
+
+# Awesome Claude Skills and Connectors
 
 A curated, categorized archive of 101 Claude Skills and 95 MCP connectors, organized by domain so you can find the right tool for the job instead of scrolling through one long list.
 
-Browse it here as a table, or check out the **[interactive site](https://AzyzHm.github.io/awesome-claude-skills-and-connectors
-/)** for search and filtering.
+Browse it here as a table, or check out the **[interactive site](https://azyzhm.github.io/awesome-claude-skills-and-connectors/)** for search and filtering.
 
 ## Contents
 
@@ -315,4 +326,3 @@ This keeps the README and the website in sync from a single source of truth.
 - [Code of Conduct](CODE_OF_CONDUCT.md), the standards this project holds contributors to
 - [Security Policy](SECURITY.md), how to report a suspicious or deprecated listing, or a vulnerability in this repo's own code
 - [License](LICENSE), MIT for this repo's own code and content. Each listed skill or connector keeps its own license, check the source before installing one
-
