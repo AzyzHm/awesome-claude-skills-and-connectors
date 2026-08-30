@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security concern
+    url: https://github.com/AzyzHm/awesome-claude-skills-and-connectors/security/advisories/new
+    about: For a vulnerability in this repo's own code, or a listed connector that looks actively compromised, use private reporting instead of a public issue. See SECURITY.md.
