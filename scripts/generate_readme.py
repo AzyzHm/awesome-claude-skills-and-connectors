@@ -28,7 +28,7 @@ lines.append(
 )
 lines.append("")
 lines.append(
-    "Browse it here as a table, or check out the **[interactive site](https://YOUR-USERNAME.github.io/YOUR-REPO/)** "
+    "Browse it here as a table, or check out the **[interactive site](https://AzyzHm.github.io/awesome-claude-skills-and-connectors/)** "
     "for search and filtering."
 )
 lines.append("")
@@ -43,6 +43,7 @@ for key, title, _ in CATS:
     lines.append(f"  - [{title}](#{key}-connectors)")
 lines.append("- [Installing a Skill](#installing-a-skill)")
 lines.append("- [Contributing](#contributing)")
+lines.append("- [Community](#community)")
 lines.append("")
 lines.append("## What's the difference between a Skill and a Connector?")
 lines.append("")
@@ -98,13 +99,22 @@ lines.append("Two rules that trip people up: the instruction file must be named 
 lines.append("")
 lines.append("## Contributing")
 lines.append("")
-lines.append("Found a skill or connector that should be here? Add an entry to `data/skills.json` or `data/connectors.json` with a `name`, `cat` (one of `ux-design`, `system-design`, `engineering`, `documentation`, `automation`), `desc`, and `link`, then run:")
+lines.append(
+    "Found a skill or connector that should be here? See [CONTRIBUTING.md](CONTRIBUTING.md) for the full "
+    "guide. Short version: add an entry to `data/skills.json` or `data/connectors.json`, then run:"
+)
 lines.append("")
 lines.append("```bash")
-lines.append("python3 scripts/generate_readme.py > README.md")
+lines.append("scripts/build_all.sh")
 lines.append("```")
 lines.append("")
 lines.append("This keeps the README and the website in sync from a single source of truth.")
+lines.append("")
+lines.append("## Community")
+lines.append("")
+lines.append("- [Code of Conduct](CODE_OF_CONDUCT.md), the standards this project holds contributors to")
+lines.append("- [Security Policy](SECURITY.md), how to report a suspicious or deprecated listing, or a vulnerability in this repo's own code")
+lines.append("- [License](LICENSE), MIT for this repo's own code and content. Each listed skill or connector keeps its own license, check the source before installing one")
 lines.append("")
 
 print("\n".join(lines))

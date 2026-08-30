@@ -256,7 +256,7 @@ const SKILLS = [
   {
     "name": "dockerfile-optimizer",
     "cat": "system-design",
-    "desc": "Multi-stage Dockerfile construction rules emphasizing minimal base images, layer caching order, and non-root execution.",
+    "desc": "Multi-stage Dockerfile construction rules for minimal base images, ordered layer caching, and non-root execution.",
     "source": "Claude Skills Library",
     "link": "https://github.com/alirezarezvani/claude-skills"
   },
@@ -375,14 +375,14 @@ const SKILLS = [
   {
     "name": "deep-learning-tutor",
     "cat": "engineering",
-    "desc": "Comprehensive companion skill referencing deep learning textbook concepts, AdamW optimization deltas, and diagnostic paths.",
+    "desc": "A companion skill that references deep learning textbook concepts, AdamW optimization deltas, and diagnostic paths.",
     "source": "Reusable Companion Skill",
     "link": "https://github.com/alirezarezvani/claude-skills/blob/main/CLAUDE.md"
   },
   {
     "name": "e2e-playwright-tester",
     "cat": "engineering",
-    "desc": "Directs writing robust end-to-end integration tests using Playwright with auto-waiting and selector strategies.",
+    "desc": "Directs writing end-to-end integration tests using Playwright with auto-waiting and selector strategies.",
     "source": "Anthropic Technical Skill",
     "link": "https://github.com/anthropics/skills"
   },
@@ -431,7 +431,7 @@ const SKILLS = [
   {
     "name": "docx-document-editor",
     "cat": "documentation",
-    "desc": "Comprehensive guidelines for programmatic docx document generation, styling, table formatting, and layout.",
+    "desc": "Guidelines for programmatic docx document generation, styling, table formatting, and layout.",
     "source": "Anthropic Document Skill",
     "link": "https://github.com/anthropics/skills"
   },
@@ -583,6 +583,13 @@ const SKILLS = [
     "link": "https://github.com/ComposioHQ/awesome-claude-skills"
   },
   {
+    "name": "humanizer",
+    "cat": "documentation",
+    "desc": "Rewrites AI-sounding text to read like a person wrote it, without changing what it says. Checks a draft against 35 patterns from Wikipedia's Signs of AI Writing, such as inflated claims, sales language, em dashes, and chatbot leftovers, then produces a cleaned-up final version.",
+    "source": "Community Skill (blader)",
+    "link": "https://github.com/blader/humanizer"
+  },
+  {
     "name": "planning-with-files",
     "cat": "automation",
     "desc": "Persistent file-based planning for coding agents; creates crash-proof markdown plans and prevents context rot over long tasks.",
@@ -676,7 +683,7 @@ const SKILLS = [
   {
     "name": "seo-audit-suite",
     "cat": "automation",
-    "desc": "Comprehensive SEO diagnostic workflow covering meta tags, canonical link verification, header structure, site crawl analysis.",
+    "desc": "An SEO diagnostic workflow covering meta tags, canonical link verification, header structure, and site crawl analysis.",
     "source": "RampStack Skill Library",
     "link": "https://github.com/ComposioHQ/awesome-claude-skills"
   },
@@ -917,7 +924,7 @@ const CONNECTORS = [
   {
     "name": "Supabase Cloud MCP",
     "cat": "system-design",
-    "desc": "Comprehensive backend management covering database migrations, edge functions, storage buckets, and Auth rules.",
+    "desc": "Backend management covering database migrations, edge functions, storage buckets, and Auth rules.",
     "transport": "HTTP / Remote",
     "link": "https://mcpservers.org/"
   },
@@ -1120,7 +1127,7 @@ const CONNECTORS = [
   {
     "name": "MCP Everything Reference",
     "cat": "engineering",
-    "desc": "Comprehensive reference implementation bundling prompts, resources, and tools into a single test harness.",
+    "desc": "A reference implementation bundling prompts, resources, and tools into a single test harness.",
     "transport": "Stdio / Node",
     "link": "https://github.com/mctrinh/awesome-mcp-servers"
   },
@@ -1134,7 +1141,7 @@ const CONNECTORS = [
   {
     "name": "GitHub MCP (Mazedur1056)",
     "cat": "engineering",
-    "desc": "Custom GitHub bridge connecting Claude and Cursor environments for seamless issue and PR management.",
+    "desc": "Custom GitHub bridge connecting Claude and Cursor environments for issue and PR management.",
     "transport": "Stdio / Node",
     "link": "https://lobehub.com/fr/mcp/mazedur1056-github-mcp-server"
   },
@@ -1169,7 +1176,7 @@ const CONNECTORS = [
   {
     "name": "MCP Mermaid Visual Intel",
     "cat": "documentation",
-    "desc": "Comprehensive visual diagram generation, validation, structural analysis, and SVG rendering platform.",
+    "desc": "Visual diagram generation, validation, structural analysis, and SVG rendering platform.",
     "transport": "Stdio / Node",
     "link": "https://lobehub.com/mcp/kayaozkur-mcp-server-mermaid"
   },
@@ -1218,7 +1225,7 @@ const CONNECTORS = [
   {
     "name": "Granola Meeting Notes MCP",
     "cat": "documentation",
-    "desc": "Directly queries Granola meeting transcripts, notes, and audio summaries to extract key operational decisions.",
+    "desc": "Directly queries Granola meeting transcripts, notes, and audio summaries to pull out operational decisions.",
     "transport": "HTTP / Remote",
     "link": "https://mcpservers.org/"
   },

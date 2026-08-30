@@ -184,7 +184,7 @@
   {
     "name": "Supabase Cloud MCP",
     "cat": "system-design",
-    "desc": "Comprehensive backend management covering database migrations, edge functions, storage buckets, and Auth rules.",
+    "desc": "Backend management covering database migrations, edge functions, storage buckets, and Auth rules.",
     "transport": "HTTP / Remote",
     "link": "https://mcpservers.org/"
   },
@@ -387,7 +387,7 @@
   {
     "name": "MCP Everything Reference",
     "cat": "engineering",
-    "desc": "Comprehensive reference implementation bundling prompts, resources, and tools into a single test harness.",
+    "desc": "A reference implementation bundling prompts, resources, and tools into a single test harness.",
     "transport": "Stdio / Node",
     "link": "https://github.com/mctrinh/awesome-mcp-servers"
   },
@@ -401,7 +401,7 @@
   {
     "name": "GitHub MCP (Mazedur1056)",
     "cat": "engineering",
-    "desc": "Custom GitHub bridge connecting Claude and Cursor environments for seamless issue and PR management.",
+    "desc": "Custom GitHub bridge connecting Claude and Cursor environments for issue and PR management.",
     "transport": "Stdio / Node",
     "link": "https://lobehub.com/fr/mcp/mazedur1056-github-mcp-server"
   },
@@ -436,7 +436,7 @@
   {
     "name": "MCP Mermaid Visual Intel",
     "cat": "documentation",
-    "desc": "Comprehensive visual diagram generation, validation, structural analysis, and SVG rendering platform.",
+    "desc": "Visual diagram generation, validation, structural analysis, and SVG rendering platform.",
     "transport": "Stdio / Node",
     "link": "https://lobehub.com/mcp/kayaozkur-mcp-server-mermaid"
   },
@@ -485,7 +485,7 @@
   {
     "name": "Granola Meeting Notes MCP",
     "cat": "documentation",
-    "desc": "Directly queries Granola meeting transcripts, notes, and audio summaries to extract key operational decisions.",
+    "desc": "Directly queries Granola meeting transcripts, notes, and audio summaries to pull out operational decisions.",
     "transport": "HTTP / Remote",
     "link": "https://mcpservers.org/"
   },

@@ -1,8 +1,9 @@
 # Claude Skills & Connectors Directory
 
-A curated, categorized archive of 100 Claude Skills and 95 MCP connectors, organized by domain so you can find the right tool for the job instead of scrolling through one long list.
+A curated, categorized archive of 101 Claude Skills and 95 MCP connectors, organized by domain so you can find the right tool for the job instead of scrolling through one long list.
 
-Browse it here as a table, or check out the **[interactive site](https://AzyzHm.github.io/awesome-claude-skills-and-connectors/)** for search and filtering.
+Browse it here as a table, or check out the **[interactive site](https://AzyzHm.github.io/awesome-claude-skills-and-connectors
+/)** for search and filtering.
 
 ## Contents
 
@@ -21,6 +22,7 @@ Browse it here as a table, or check out the **[interactive site](https://AzyzHm.
   - [Automation](#automation-connectors)
 - [Installing a Skill](#installing-a-skill)
 - [Contributing](#contributing)
+- [Community](#community)
 
 ## What's the difference between a Skill and a Connector?
 
@@ -72,7 +74,7 @@ _Architecture, databases, cloud infrastructure, IaC, and security._
 | [`api-design-reviewer`](https://github.com/borghei/Claude-Skills) | Audits REST and gRPC API designs for URL consistency, HTTP status code accuracy, pagination, and error payload structures. | Borghei Claude Skills |
 | [`database-schema-architect`](https://github.com/alirezarezvani/claude-skills) | Guides third-normal-form relational schema design, index strategy selection, and foreign key constraint setups. | Claude Skills Library |
 | [`design-system-architect`](https://github.com/alirezarezvani/claude-skills) | Standardizes the structure for W3C-compliant JSON design tokens, theme toggling logic, and multi-brand style dictionaries. | Claude Skills Library |
-| [`dockerfile-optimizer`](https://github.com/alirezarezvani/claude-skills) | Multi-stage Dockerfile construction rules emphasizing minimal base images, layer caching order, and non-root execution. | Claude Skills Library |
+| [`dockerfile-optimizer`](https://github.com/alirezarezvani/claude-skills) | Multi-stage Dockerfile construction rules for minimal base images, ordered layer caching, and non-root execution. | Claude Skills Library |
 | [`error-handling-patterns`](https://github.com/alirezarezvani/claude-skills) | Enforces uniform error classification, structured logging schemas, circuit breaker patterns, and graceful degradation. | Claude Skills Library |
 | [`graphql-schema-designer`](https://github.com/alirezarezvani/claude-skills) | Enforces relay spec compliance, custom scalar validation, query complexity limits, and N+1 query prevention. | Claude Skills Library |
 | [`kubernetes-manifest-generator`](https://github.com/alirezarezvani/claude-skills) | Generates compliant K8s Deployment, Service, Ingress, and ConfigMap YAMLs with strict resource request/limit definitions. | Claude Skills Library |
@@ -90,9 +92,9 @@ _Code quality, version control, testing, debugging, and sandboxed execution._
 | [`ci-cd-pipeline-builder`](https://github.com/borghei/Claude-Skills) | Drafts optimized GitHub Actions workflows, GitLab CI YAMLs, caching layers, and security scanning jobs. | Borghei Claude Skills |
 | [`code-review`](https://code.claude.com/docs/en/skills) | Automated reviewer checking diffs for edge-case bugs, security vulnerabilities, style violations, and test coverage. | Claude Code Bundled Skill |
 | [`csv-data-cleaner`](https://github.com/alirezarezvani/claude-skills) | Multi-step data cleaning: handling missing values, parsing dates, deduplication, and format normalization. | Claude Skills Library |
-| [`deep-learning-tutor`](https://github.com/alirezarezvani/claude-skills/blob/main/CLAUDE.md) | Comprehensive companion skill referencing deep learning textbook concepts, AdamW optimization deltas, and diagnostic paths. | Reusable Companion Skill |
+| [`deep-learning-tutor`](https://github.com/alirezarezvani/claude-skills/blob/main/CLAUDE.md) | A companion skill that references deep learning textbook concepts, AdamW optimization deltas, and diagnostic paths. | Reusable Companion Skill |
 | [`dependency-updater`](https://github.com/alirezarezvani/claude-skills) | Safe dependency upgrading workflow checking breaking release notes, semver risks, and audit alerts. | Claude Skills Library |
-| [`e2e-playwright-tester`](https://github.com/anthropics/skills) | Directs writing robust end-to-end integration tests using Playwright with auto-waiting and selector strategies. | Anthropic Technical Skill |
+| [`e2e-playwright-tester`](https://github.com/anthropics/skills) | Directs writing end-to-end integration tests using Playwright with auto-waiting and selector strategies. | Anthropic Technical Skill |
 | [`git-pushing`](https://github.com/ComposioHQ/awesome-claude-skills) | Automates git commit formatting, branch naming conventions, conflict checks, and PR creation workflows. | Awesome Claude Skills |
 | [`go-cli-builder`](https://github.com/alirezarezvani/claude-skills) | Standardizes Go CLI application structure using Cobra, Viper configuration loading, and standard I/O pipelines. | Claude Skills Library |
 | [`mcp-server-generator`](https://github.com/anthropics/skills) | Guides scaffolding and writing boilerplate code for new TypeScript/Python MCP servers. | Anthropic Technical Skill |
@@ -120,7 +122,8 @@ _Writing, diagramming, and knowledge management._
 | [`codebase-onboarding`](https://github.com/borghei/Claude-Skills/blob/main/engineering/codebase-onboarding/SKILL.md) | Scans target repos to build architecture overviews, annotated file maps, setup steps, and developer runbooks. | Borghei Claude Skills |
 | [`data-dictionary-builder`](https://github.com/alirezarezvani/claude-skills) | Converts raw SQL schemas and data warehouse tables into annotated business data dictionaries with lineage notes. | Claude Skills Library |
 | [`dev-setup-guide-author`](https://github.com/alirezarezvani/claude-skills) | Generates copy-paste verified local environment setup steps, missing dependency checks, env variable descriptions. | Claude Skills Library |
-| [`docx-document-editor`](https://github.com/anthropics/skills) | Comprehensive guidelines for programmatic docx document generation, styling, table formatting, and layout. | Anthropic Document Skill |
+| [`docx-document-editor`](https://github.com/anthropics/skills) | Guidelines for programmatic docx document generation, styling, table formatting, and layout. | Anthropic Document Skill |
+| [`humanizer`](https://github.com/blader/humanizer) | Rewrites AI-sounding text to read like a person wrote it, without changing what it says. Checks a draft against 35 patterns from Wikipedia's Signs of AI Writing, such as inflated claims, sales language, em dashes, and chatbot leftovers, then produces a cleaned-up final version. | Community Skill (blader) |
 | [`internal-comms-writer`](https://github.com/ComposioHQ/awesome-claude-skills) | Helps draft company newsletters, status updates, 3P reports (Progress, Plans, Problems), and executive FAQs. | Business Operations |
 | [`knowledge-ops`](https://github.com/ComposioHQ/awesome-claude-skills) | Establishes rules for organizing corporate knowledge bases, taxonomy tagging, and deduplicating wiki pages. | Business Operations |
 | [`mermaid-diagram-author`](https://github.com/alirezarezvani/claude-skills) | Teaches syntax rules for Mermaid flowcharts, sequence diagrams, ER diagrams, and state diagrams. | Claude Skills Library |
@@ -160,7 +163,7 @@ _Workflow orchestration, scheduling, browsing, and operational tooling._
 | [`planning-with-files`](https://github.com/alirezarezvani/claude-skills) | Persistent file-based planning for coding agents; creates crash-proof markdown plans and prevents context rot over long tasks. | Planning Framework |
 | [`pricing-strategist`](https://github.com/ComposioHQ/awesome-claude-skills) | Analyzes product tiering, unit economics, value metric pricing models, and SaaS monetization strategies. | Commercial & Finance |
 | [`procurement-optimizer`](https://github.com/ComposioHQ/awesome-claude-skills) | Standardizes software and hardware purchasing workflows, competitive bidding evaluations, and compliance gates. | Business Operations |
-| [`seo-audit-suite`](https://github.com/ComposioHQ/awesome-claude-skills) | Comprehensive SEO diagnostic workflow covering meta tags, canonical link verification, header structure, site crawl analysis. | RampStack Skill Library |
+| [`seo-audit-suite`](https://github.com/ComposioHQ/awesome-claude-skills) | An SEO diagnostic workflow covering meta tags, canonical link verification, header structure, and site crawl analysis. | RampStack Skill Library |
 | [`skill-creator`](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/skill-creator/SKILL.md) | Meta-skill providing a complete workflow and template for creating, testing, and packaging new Claude SKILL.md packages. | Anthropic / Composio Skill |
 | [`slack-bot-notifier`](https://github.com/alirezarezvani/claude-skills) | Formats block-kit JSON payloads for automated Slack alerts, deployment notifications, and incident updates. | Claude Skills Library |
 | [`vendor-management`](https://github.com/ComposioHQ/awesome-claude-skills) | Framework for analyzing vendor proposals, evaluating SLAs, calculating TCO, and tracking contract renewals. | Business Operations |
@@ -219,7 +222,7 @@ _Workflow orchestration, scheduling, browsing, and operational tooling._
 | [Semgrep Vulnerability Scanner](https://github.com/appcypher/awesome-mcp-servers) | Static code analysis scanning for security vulnerabilities, OWASP Top 10 bugs, and custom rule violations. | Stdio / Python |
 | [Sentry Telemetry MCP](https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025) | Application issue extraction, exception stack trace analysis, alert management, and release tracking. | Stdio / Python |
 | [StarRocks Analytics Engine](https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025) | High-performance SQL query interface optimized for large-scale enterprise data warehousing and analytics. | Stdio / Java |
-| [Supabase Cloud MCP](https://mcpservers.org/) | Comprehensive backend management covering database migrations, edge functions, storage buckets, and Auth rules. | HTTP / Remote |
+| [Supabase Cloud MCP](https://mcpservers.org/) | Backend management covering database migrations, edge functions, storage buckets, and Auth rules. | HTTP / Remote |
 | [Thales CipherTrust Suite](https://github.com/appcypher/awesome-mcp-servers) | Enterprise cryptographic key management, secret rotation, and data protection across enterprise applications. | Stdio / REST |
 | [Vantage Cloud Cost Analytics](https://www.pomerium.com/blog/best-model-context-protocol-mcp-servers-in-2025) | FinOps cloud visibility analyzing infrastructure cost trends, cross-cloud spend patterns, and waste reduction. | Stdio / Go |
 | [Vulert Dependency Security](https://github.com/appcypher/awesome-mcp-servers) | Real-time open-source dependency auditing without uploading full source code manifests or binaries. | Stdio / Node |
@@ -232,11 +235,11 @@ _Workflow orchestration, scheduling, browsing, and operational tooling._
 | [Chrome DevTools MCP](https://mcpservers.org/) | Live inspection, console error log monitoring, network request capture, and DOM element evaluation via coding agents. | HTTP / Remote |
 | [E2B Cloud Sandbox MCP](https://github.com/appcypher/awesome-mcp-servers) | Secure, isolated cloud container runtime for running untrusted code snippets and data analysis routines. | Stdio / Node |
 | [Git Repository MCP](https://github.com/modelcontextprotocol/servers) | Direct local Git operations including commit history inspection, branch creation, diffing, and stash management. | Stdio / uvx |
-| [GitHub MCP (Mazedur1056)](https://lobehub.com/fr/mcp/mazedur1056-github-mcp-server) | Custom GitHub bridge connecting Claude and Cursor environments for seamless issue and PR management. | Stdio / Node |
+| [GitHub MCP (Mazedur1056)](https://lobehub.com/fr/mcp/mazedur1056-github-mcp-server) | Custom GitHub bridge connecting Claude and Cursor environments for issue and PR management. | Stdio / Node |
 | [GitHub Official MCP](https://github.com/modelcontextprotocol/servers) | Repository manipulation, issue tracking, pull request management, code search, and GitHub Actions control. | Stdio / Node |
 | [GitHub Repo Server (LogLMHQ)](https://mcpservers.org/servers/loglmhq/mcp-server-github-repo) | Lightweight MCP server specifically tuned for scanning GitHub repository contents and structural layouts. | HTTP / Remote |
 | [GitLab API MCP](https://github.com/modelcontextprotocol/servers) | Project management, merge request review, issue management, and pipeline status querying within GitLab instances. | Stdio / Node |
-| [MCP Everything Reference](https://github.com/mctrinh/awesome-mcp-servers) | Comprehensive reference implementation bundling prompts, resources, and tools into a single test harness. | Stdio / Node |
+| [MCP Everything Reference](https://github.com/mctrinh/awesome-mcp-servers) | A reference implementation bundling prompts, resources, and tools into a single test harness. | Stdio / Node |
 | [MCP Inspector Visual Debugger](https://github.com/modelcontextprotocol) | Visual developer testing harness for inspecting, debugging, and testing tool calls across custom MCP servers. | Stdio / Node |
 | [Microsandbox Executable](https://github.com/appcypher/awesome-mcp-servers) | Self-hosted, lightweight code execution platform providing local agent sandboxing for secure code execution. | Stdio / Node |
 | [Proxyman Network Debugging](https://mcpservers.org/) | Allows Claude to inspect HTTP/HTTPS network traffic, analyze payload headers, and create mock debugging rules. | HTTP / Remote |
@@ -255,12 +258,12 @@ _Workflow orchestration, scheduling, browsing, and operational tooling._
 | [Fetch Web Page Converter](https://github.com/modelcontextprotocol/servers) | Retrieves web pages and converts raw HTML into clean, token-efficient Markdown representations. | Stdio / uvx |
 | [Google Drive File Access](https://github.com/modelcontextprotocol/servers) | Authorizes Claude to search, read, and process Google Docs, spreadsheets, and drive document trees. | Stdio / Python |
 | [Google Search Console MCP](https://mcpservers.org/) | Connects to Google Search Console to analyze website performance, organic query metrics, and indexation status. | HTTP / Remote |
-| [Granola Meeting Notes MCP](https://mcpservers.org/) | Directly queries Granola meeting transcripts, notes, and audio summaries to extract key operational decisions. | HTTP / Remote |
+| [Granola Meeting Notes MCP](https://mcpservers.org/) | Directly queries Granola meeting transcripts, notes, and audio summaries to pull out operational decisions. | HTTP / Remote |
 | [Hustcc Mermaid & Chart MCP](https://github.com/hustcc/mcp-mermaid) | Dynamic rendering engine converting structured data into visual Mermaid flowcharts, charts, and spatial maps. | Stdio / Node |
 | [Interactive Mermaid Viewer](https://github.com/finfin/mermaid-mcp-app) | MCP App rendering Mermaid diagrams within an interactive viewer featuring pan, zoom, and live editor panels. | HTTP / Remote |
 | [Internet Archive Open Library](https://github.com/appcypher/awesome-mcp-servers) | Enables searches against millions of cataloged books, historical texts, and author bibliographies. | Stdio / Python |
 | [LLM-Context Extractor](https://github.com/appcypher/awesome-mcp-servers) | Packs repository code and file structures into structured context blocks for clipboard or API consumption. | Stdio / Rust |
-| [MCP Mermaid Visual Intel](https://lobehub.com/mcp/kayaozkur-mcp-server-mermaid) | Comprehensive visual diagram generation, validation, structural analysis, and SVG rendering platform. | Stdio / Node |
+| [MCP Mermaid Visual Intel](https://lobehub.com/mcp/kayaozkur-mcp-server-mermaid) | Visual diagram generation, validation, structural analysis, and SVG rendering platform. | Stdio / Node |
 | [Memory Knowledge Graph](https://github.com/modelcontextprotocol/servers) | Persistent knowledge graph storing entities, relations, and qualitative insights across Claude operational sessions. | Stdio / npx |
 | [Mermaid AI Workflow MCP](https://mermaid.ai/docs/ai/mcp-server) | Official Mermaid diagram generation tool assisting in flowcharts, sequence diagrams, and visual system maps. | Stdio / Node |
 | [Mermaid Rendering Engine](https://github.com/mermaid-js/mermaid) | Converts Mermaid text definitions into high-resolution PNG or SVG vector files for local inline presentation. | Stdio / Node |
@@ -299,11 +302,17 @@ Two rules that trip people up: the instruction file must be named exactly `SKILL
 
 ## Contributing
 
-Found a skill or connector that should be here? Add an entry to `data/skills.json` or `data/connectors.json` with a `name`, `cat` (one of `ux-design`, `system-design`, `engineering`, `documentation`, `automation`), `desc`, and `link`, then run:
+Found a skill or connector that should be here? See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide. Short version: add an entry to `data/skills.json` or `data/connectors.json`, then run:
 
 ```bash
-python3 scripts/generate_readme.py > README.md
+scripts/build_all.sh
 ```
 
 This keeps the README and the website in sync from a single source of truth.
+
+## Community
+
+- [Code of Conduct](CODE_OF_CONDUCT.md), the standards this project holds contributors to
+- [Security Policy](SECURITY.md), how to report a suspicious or deprecated listing, or a vulnerability in this repo's own code
+- [License](LICENSE), MIT for this repo's own code and content. Each listed skill or connector keeps its own license, check the source before installing one
 
